@@ -226,7 +226,6 @@ symlink("toolbox", "/system/bin/schedtop");
 symlink("toolbox", "/system/bin/sendevent");
 symlink("toolbox", "/system/bin/setconsole");
 symlink("toolbox", "/system/bin/setprop");
-symlink("toolbox", "/system/bin/sh");
 symlink("toolbox", "/system/bin/sleep");
 symlink("toolbox", "/system/bin/smd");
 symlink("toolbox", "/system/bin/start");
