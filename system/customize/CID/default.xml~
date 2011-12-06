@@ -93,7 +93,7 @@
     </module>
   </category>
   <BootConfiguration>
-    <BootAnimation animation="/system/customize/resource/hTC_bootanimation.zip" audio="/system/customize/resource/android_audio.mp3" />
+    <BootAnimation animation="/system/customize/resource/hTC_bootanimation.zip" />
   </BootConfiguration>
   <ShutdownConfiguration>
     <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" image="" fps="15" />
