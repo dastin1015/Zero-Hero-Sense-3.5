@@ -48,7 +48,7 @@
         <set name="single">
           <item name="total_list">Handwriting;ZuhYin;CangJie;PinYin;Stroke;</item>
           <item type="boolean" name="Handwriting">yes</item>
-          <item type="boolean" name="ZuhYin">yes</item>
+          <item type="boolean" name="ZuhYin">no</item>
           <item type="boolean" name="CangJie">no</item>
           <item type="boolean" name="PinYin">yes</item>
           <item type="boolean" name="Stroke">yes</item>
@@ -83,11 +83,6 @@
         <set name="single">
           <item name="Sync_Data" type="boolean">yes</item>
           <item name="Location_Consent" type="boolean">no</item>
-        </set>
-      </function>
-      <function name="Account_Config">
-        <set name="single">
-          <item name="GMail" type="boolean">no</item>
         </set>
       </function>
     </module>

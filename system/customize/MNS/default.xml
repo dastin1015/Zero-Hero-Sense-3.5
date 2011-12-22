@@ -33,7 +33,7 @@
       </function>
       <function name="default_zi_database_type">
         <set name="single">
-          <item name="default">CN</item>
+          <item name="default">US</item>
         </set>
       </function>
       <function name="IME_PinYin_Language">
@@ -54,7 +54,7 @@
       </function>
       <function name="default_IKB_init_value">
         <set name="single">
-          <item name="default">PinYin</item>
+          <item name="default">English</item>
         </set>
       </function>
       <function name="default_IME_settings">
@@ -71,7 +71,7 @@
     <module name="defaultTimeFormatSetting">
       <function>
         <set name="single">
-          <item name="default">yyyy MMM d, EE</item>
+          <item name="default">MMM d yyyy, EE</item>
         </set>
       </function>
     </module>
@@ -116,8 +116,8 @@
           <item name="priority">3</item>
         </set>
         <set name="plenty" max="7">
-          <item name="package">com.android.htcdialer</item>
-          <item name="class">com.android.htcdialer.Dialer</item>
+          <item name="package">com.android.htccontacts</item>
+          <item name="class">com.android.htccontacts.DialerTabActivity</item>
           <item name="priority">3</item>
         </set>
         <set name="plenty" max="7">
@@ -306,19 +306,10 @@
           <!--845930f1-fde2-4b52-a078-bdaef512f738-->
           <item name="package_name">com.htc.htcmsgwidgets</item>
           <item name="widget_name">htcmsgwidgets.MyWidgetItem</item>
-          <item name="screen">1</item>
+          <item name="screen">2</item>
           <item name="cell_x">0</item>
           <item name="cell_y">0</item>
           <item name="hide">mail</item>
-        </set>
-        <set name="plenty">
-          <!--c84083aa-e064-4c4e-a4a3-f1261f99b402-->
-          <item name="package_name">com.htc.htcmailwidgets</item>
-          <item name="widget_name">htcmailwidgets.MyWidgetList2</item>
-          <item name="screen">1</item>
-          <item name="cell_x">0</item>
-          <item name="cell_y">0</item>
-          <item name="show">mail</item>
         </set>
         <set name="plenty">
           <!--3083f9be-59b1-46db-a5f1-4022dee0828d-->
@@ -329,50 +320,12 @@
           <item name="cell_y">0</item>
           <item name="property.com.htc.QLWidget.shortCut1.pkg">com.android.mms</item>
           <item name="property.com.htc.QLWidget.shortCut1.cls">com.android.mms.ui.ConversationList</item>
-          <item name="property.com.htc.QLWidget.shortCut2.pkg">com.android.camera</item>
-          <item name="property.com.htc.QLWidget.shortCut2.cls">com.android.camera.CameraEntry</item>
-          <item name="property.com.htc.QLWidget.shortCut3.pkg">com.htc.music</item>
-          <item name="property.com.htc.QLWidget.shortCut3.cls">com.htc.music.HtcMusic</item>
-          <item name="property.com.htc.QLWidget.shortCut4.pkg">com.renren.mobile.android</item>
-          <item name="property.com.htc.QLWidget.shortCut4.cls">com.renren.mobile.android.ui.WelcomeScreen</item>
-        </set>
-        <set name="plenty">
-          <!--282346bb-b6bf-4853-8392-ac3921ebe755-->
-          <item name="package_name">com.htc.FriendStreamWidget</item>
-          <item name="widget_name">FriendStreamWidgetItem</item>
-          <item name="screen">2</item>
-          <item name="cell_x">0</item>
-          <item name="cell_y">0</item>
         </set>
         <set name="plenty">
           <!--7d741005-824f-47fc-a4d3-3aa2172a888f-->
           <item name="package_name">com.htc.htccalendarwidgets</item>
           <item name="widget_name">htccalendarwidgets.MonthViewWidgetItem</item>
-          <item name="screen">6</item>
-          <item name="cell_x">0</item>
-          <item name="cell_y">0</item>
-        </set>
-        <set name="plenty">
-          <!--87022309-f8d8-4021-a7f8-642c7ab5d42c-->
-          <item name="package_name">com.htc.renrenchatwidget</item>
-          <item name="widget_name">Widget</item>
           <item name="screen">4</item>
-          <item name="cell_x">0</item>
-          <item name="cell_y">0</item>
-        </set>
-        <set name="plenty">
-          <!--cc7d536d-ce11-4c89-8f9b-aeca87477369-->
-          <item name="package_name">com.htc.FriendStreamWidget</item>
-          <item name="widget_name">FriendStreamSmallWidgetItem</item>
-          <item name="screen">5</item>
-          <item name="cell_x">0</item>
-          <item name="cell_y">2</item>
-        </set>
-        <set name="plenty">
-          <!--4fd23790-4f85-4393-b675-560eb86b6348-->
-          <item name="package_name">com.htc.MusicWidget</item>
-          <item name="widget_name">Music Widget</item>
-          <item name="screen">5</item>
           <item name="cell_x">0</item>
           <item name="cell_y">0</item>
         </set>
@@ -447,8 +400,8 @@
       </function>
       <function name="scene_list">
         <set name="plenty" max="1">
-          <item name="scenename">HTC(China)</item>
-          <item name="scene_preview_large">CN_scenes_picker_1.png</item>
+          <item name="scenename">Zero Hero</item>
+          <item name="scene_preview_large">scenes_picker_1.png</item>
         </set>
         <set name="plenty" max="1">
           <item name="scenename">HTC</item>
@@ -473,7 +426,7 @@
           <item name="MMS_Roaming_Auto_Retrieve">false</item>
           <item name="MMS_Priority">Normal</item>
           <item name="MMS_Msg_Size1">500K</item>
-          <item name="MMS_Msg_Size2">1m</item>
+          <item name="MMS_Msg_Size2">1M</item>
           <item name="MMS_Msg_Size3">2M</item>
           <item name="MMS_Msg_Size_Choose">2M</item>
           <item name="MMS_Received_Notify">true</item>
@@ -519,7 +472,7 @@
       </function>
       <function name="gsearchtab_string">
         <set name="single">
-          <item name="value">false</item>
+          <item name="value">true</item>
         </set>
       </function>
       <function name="wikitab_string">
@@ -625,6 +578,7 @@
           <item name="inprotocol">IMAP</item>
           <item name="useSSLin">1</item>
           <item name="useSSLout">1</item>
+
           <item name="providerGroup">Gmail</item>
         </set>
       </function>
@@ -673,6 +627,7 @@
           <item name="peakTimeEnd">1200</item>
         </set>
       </function>
+      </function>
     </module>
     <module name="Calendar">
       <function name="reminder">
@@ -692,18 +647,19 @@
     <module name="weather_provider">
       <function name="settings">
         <set name="single">
-          <item name="temprature_unit">c</item>
+          <item name="temprature_unit">f</item>
         </set>
       </function>
       <function name="default_city">
         <set name="plenty" max="15">
           <item name="app">com.htc.elroy.Weather</item>
           <item name="type">1</item>
-          <item name="name">Beijing_HTCCN</item>
-          <item name="country">China</item>
-          <item name="code">*01010101</item>
-          <item name="timezone">-480</item>
-          <item name="timezoneid">Asia/Hong_Kong</item>
+          <item name="name">Los Angeles</item>
+	  <item name="state">CA</item>
+          <item name="country">United States</item>
+          <item name="code">NAM|US|CA|LOS ANGELES</item>
+          <item name="timezone">480</item>
+          <item name="timezoneid">America/Los_Angeles</item>
         </set>
         <set name="plenty" max="15">
           <item name="app">com.htc.android.worldclock</item>
@@ -719,7 +675,7 @@
     <module name="weather_sync_provider">
       <function name="settings">
         <set name="single">
-          <item name="temprature_unit">c</item>
+          <item name="temprature_unit">f</item>
           <item name="update_interval">10800000</item>
         </set>
       </function>
@@ -817,9 +773,7 @@
       </function>
       <!-- Mobile_view -->
       <function name="mobile_view">
-        <set name="single">
-          <item name="value">true</item>
-        </set>
+        <set name="single" />
       </function>
       <!-- Default text encoding -->
       <function name="default_text_encoding">
