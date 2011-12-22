@@ -35,7 +35,7 @@ ro.aa.modelid=PJ0310000
 ro.aa.skulist=1400
 ro.aa.taskid=224294
 ro.cwkey=HTCCN701
-ro.com.google.clientidbase=android-htc
+ro.com.google.clientidbase=android-sprint-us
 ro.build.id=GRJ90
 ro.build.display.id=GRJ90
 ro.build.version.incremental=188047.7
@@ -168,7 +168,7 @@ ro.media.enc.vid.m4v.fps       = 1,30
 ro.media.dec.jpeg.memcap 	= 20000000
 
 # try to disable proximity sensor in call by default
-#gsm.proximity.enable=false
+gsm.proximity.enable=false
 
 # AOLC
 htc.audio.alc.enable = true
@@ -196,7 +196,7 @@ ro.telephony.default_network=4
 ro.com.google.clientidbase=android-sprint-us
 ro.cdma.home.operator.alpha=Sprint
 ro.com.google.locationfeatures=1
-ro.cdma.home.operator.numeric=310012
+ro.cdma.home.operator.numeric=310120
 ro.cdma.homesystem=128,64
 ro.cdma.data_retry_config=default_randomization=960000,960000,960000,960000,960000
 
@@ -214,11 +214,10 @@ dalvik.vm.stack-trace-file=/data/anr/traces.txt
 ro.wifi.hotspotUI=0
 ring.delay=0
 ro.telephony.call_ring.delay=0
-ro.cdma.home.operator.numeric=46003
+ro.cdma.home.operator.numeric=310120
 media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
 media.stagefright.enable-scan=true
 media.stagefright.enable-http=true
-mot.proximity.delay=150
 windowsmgr.support_rotation_270=true
 windowsmgr.max_events_per_sec=260
