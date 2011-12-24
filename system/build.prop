@@ -168,7 +168,7 @@ ro.media.enc.vid.m4v.fps       = 1,30
 ro.media.dec.jpeg.memcap 	= 20000000
 
 # try to disable proximity sensor in call by default
-gsm.proximity.enable=false
+gsm.proximity.enable=true
 
 # AOLC
 htc.audio.alc.enable = true
