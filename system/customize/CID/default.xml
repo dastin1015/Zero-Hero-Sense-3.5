@@ -58,7 +58,7 @@
     <module name="deviceData">
       <function>
         <set name="single">
-          <item name="device_name">HERO200</item>
+          <item name="device_name">HTC Hero CDMA</item>
         </set>
       </function>
     </module>
