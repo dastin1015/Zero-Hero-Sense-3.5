@@ -1,4 +1,13 @@
-<map version="1.00">
-	<profiles>
-	</profiles>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map>
+  <profiles>
+    <item name="23801">23801.xml</item>
+    <item name="24007">24007.xml</item>
+    <item name="23802">23802.xml</item>
+    <item name="24201">24201.xml</item>
+    <item name="24008">24008.xml</item>
+    <item name="24001">24001.xml</item>
+    <item name="23806">23806.xml</item>
+    <item name="24002">24002.xml</item>
+  </profiles>
 </map>
