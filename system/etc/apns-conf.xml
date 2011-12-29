@@ -23,7 +23,7 @@
 <apns version="8">
 <!-- use empty string to specify no proxy or port -->
   <apn carrier="CDMA" mcc="310" mnc="120" apn="0" port="" mmsproxy="" mmsport="" mmsc="" type="default,supl" />
-  <apn carrier="CDMA" mcc="310" mnc="120" apn="1" port="" mmsproxy="" mmsport="" mmsc="http://mms.sprintpcs.com" type="mms" />
+  <apn name="Sprint" numeric="310120" mcc="310" mnc="120" apn="Sprint" user="Sprint" server="*" password="*" proxy="" port="" mmsproxy="" mmsport="80" mmsprotocol="" mmsc="http://mms.sprintpcs.com/servlets/mms" type="mms" />
   <apn carrier="CDMA" mcc="310" mnc="120" apn="1" port="" mmsproxy="" mmsport="8080" mmsc="http://mms.alltel.com/servlets/mms" type="mms" />  
   <apn carrier="CDMA" mcc="311" mnc="23" apn="1" port="" mmsproxy="" mmsport="" mmsc="http://pix.cellularsouth.com/servlets/mms" type="mms" />
   <apn carrier="CDMA" mcc="310" mnc="60" apn="1" port="" mmsproxy="" mmsport="80" mmsc="http://mms.cellcom.com/cellcom/mms.php" type="mms" />
