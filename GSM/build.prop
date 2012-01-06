@@ -62,12 +62,12 @@ ro.board.platform=msm7k
 # ro.build.product is obsolete; use ro.product.device
 ro.build.product=hero
 # Do not try to parse ro.build.description or .fingerprint
-ro.build.description=Zero Hero Sense 3.5
+ro.build.description=HTX Zero Hero Sense 3.5
 ro.build.changelist=152652
 ro.product.ua=
 ro.build.fingerprint=htccn_chs/htc_pico/pico:2.3.5/GRJ90/188047.7:user/release-keys
 ro.build.project=Pico:224294
-ro.product.version=HTX Zero Hero Sense 3.5
+ro.product.version=Zero Hero Sense 3.5
 ro.build.languageremove=29
 ro.build.sense.version=3.5
 keyguard.no_require_sim=1
